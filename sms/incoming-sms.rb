@@ -8,7 +8,7 @@ set :bind, '0.0.0.0'
 
 get '/incomingsms.xml' do
 
-  text = "Thank you for sending out SMS"
+  text = "Welcome to Plivo! Thank you for sending out SMS"
 
   msg_params = {
                 'text' => text,
